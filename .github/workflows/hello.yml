@@ -22,3 +22,9 @@ jobs:
 
       - name: List files
         run: ls
+      
+      - name: Download dependencies
+        run: npm i
+
+      - name: Run tests
+        run: npm test
